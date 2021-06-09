@@ -1,4 +1,4 @@
-<p align = "center"><img src = "https://github.com/jenineharris/stuff/blob/master/logo-ichad.png?raw=true"> 
+<p align = "center"><img src = "https://github.com/jenineharris/stuff/blob/master/ChapinHall_Logo_UChicago_RGB.png?raw=true"> 
 
 # June 2021 R Workshops
 
