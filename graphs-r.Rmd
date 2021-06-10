@@ -132,22 +132,6 @@ starwarsRec %>%
   theme_minimal(base_size = 14)
 ```
 
-## Fancy grouped bar chart with color palettes
-
-```{r chunk10}
-starwarsRec %>%
-  drop_na(species, gender) %>% 
-  ggplot(aes(x = species, fill = gender)) +
-  geom_bar(position = 'dodge') +
-  scale_fill_brewer(palette = 'Set1', name = "Character Gender") + #ROTATE
-  scale_fill_brewer(palette = 'Dark2', name = "Character Gender") + #ROTATE
-  scale_fill_brewer(palette = 'Paired', name = "Character Gender") + #ROTATE
-  labs(x = "Character Species",
-       y = "Frequency",
-       title = "Species and Gender of Star Wars Characters") +
-  theme_minimal(base_size = 14)
-```
-
 ## Fancy grouped bar chart with percentages
 
 ```{r chunk11}
@@ -163,8 +147,7 @@ starwarsRec %>%
   labs(x = "Character Species",
        y = "Percentage in Species Group",
        title = "Species and Gender of Star Wars Characters") +
-  theme_minimal(base_size = 14) +
-  theme(legend.position = 'none')
+  theme_minimal(base_size = 14) 
 ```
 
 
