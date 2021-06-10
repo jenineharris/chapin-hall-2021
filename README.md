@@ -57,7 +57,7 @@ If you miss the presentations, the slides will be added here when available:
 
 <ul>
   <li> <a href = "https://jenineharris.github.io/chapin-slides/">Introduction to R</a>
-  <li> Data Viz in R
+  <li> <a href = "https://jenineharris.github.io/chapin-slides/graphs.html">Data Viz in R</a>
 </ul>
 
 Other places to get more instruction or information on R:
