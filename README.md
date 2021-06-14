@@ -53,7 +53,7 @@ Download the participant files and save them together in the same folder on your
 
 ### R Resources
 
-If you miss the presentations, the slides will be added here when available:
+If you miss the presentations, the slides are here:
 
 <ul>
   <li> <a href = "https://jenineharris.github.io/chapin-slides/">Introduction to R</a>
