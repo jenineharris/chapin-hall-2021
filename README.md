@@ -41,7 +41,7 @@ Second, download and install R Studio:
   <li> Use the installer that downloads to install R Studio 
 </ul>
 
-### Download and Save Workshop Materials (DOWNLOAD AVAILABLE JUNE 10)
+### Download and Save Workshop Materials
 
 Download the participant files and save them together in the same folder on your computer:
 
