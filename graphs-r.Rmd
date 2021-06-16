@@ -72,7 +72,9 @@ starwarsRec %>%
 
 Make a bar chart of the Species of Star Wars Characters in your R Markdown file (chunk6).
 
-Edit the code to: 
+Edit the chunk6 code to: 
+
+* Change the gender variable to the species variable
 
 * Change the color of the bars by replacing #7463AC the name of your favorite color (e.g., orange) or using a color found on the https://colorbrewer2.org/ website
 
@@ -175,7 +177,7 @@ starwarsRec %>%
 
 Create a bar chart of the Gender and Eye Color of Star Wars Characters in chunk 13 in your R Markdown file.
 
-Copy and paste code from the version you like best and edit the code to: 
+Copy and paste code from the stacked or grouped graph you like best and edit the code to: 
 
 * Add the eye color variable in the appropriate places
 
@@ -252,14 +254,12 @@ starwarsRec %>%
 ```
 
 
-## Super fancy layered box plot
+## Fancy layered box plot
 
 ```{r chunk19}
 starwarsRec %>%
   drop_na(height, species) %>% 
   ggplot(aes(x = species, y = height)) +
-  geom_violin(aes(color = species), fill = "white",
-              alpha = .8) +
   geom_boxplot(aes(color = species, fill = species), 
                alpha = .4) +
   geom_jitter(aes(color = species), alpha = .6) +
@@ -299,7 +299,7 @@ starwarsRec %>%
   geom_half_point(alpha = .6, side = "l") +
   labs(x = "Species",
        y = "Mass (kg)",
-       title = "Distribution of Species Height for Star Wars\nCharacters") +
+       title = "Distribution of Species Height for Star Wars Characters") +
   theme_minimal(base_size = 14) +
   coord_flip() +
   scale_color_brewer(palette = "Dark2") +
@@ -307,7 +307,7 @@ starwarsRec %>%
   theme(legend.position = 'none')
 ```
 
-## Rain cloud plot
+## Rain cloud plot without Jabba
 
 ```{r chunk22}
 starwarsRec %>% 
@@ -317,7 +317,7 @@ starwarsRec %>%
   geom_half_point(alpha = .6, side = "l") +
   labs(x = "Species",
        y = "Mass (kg)",
-       title = "Distribution of Species Height for Star Wars\nCharacters") +
+       title = "Distribution of Species Height for Star Wars Characters\n(Excluding Jabba the Hutt)") +
   theme_minimal(base_size = 14) +
   coord_flip() +
   scale_color_brewer(palette = "Dark2") +
@@ -329,7 +329,7 @@ starwarsRec %>%
 
 ## You Try It!
 
-* Copy the rain cloud plot code for height or mass and change the categorical variable to gender 
+* Copy code from one of the the rain cloud plots into chunk23 and change the categorical variable to gender 
 
 * Edit the labels and title as needed
 
