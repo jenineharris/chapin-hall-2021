@@ -80,7 +80,7 @@ Edit the chunk6 code to:
 
 * Add labels for the axes and a title inside the quote marks
 
-* try another theme, you can find them here: https://ggplot2.tidyverse.org/reference/ggtheme.html
+* Try another theme, you can find them in the help documents by searching "complete themes" or here: https://ggplot2.tidyverse.org/reference/ggtheme.html
 
 When you have completed the changes, click the little green arrow on the top right of the code chunk to run the code.
 
@@ -181,7 +181,11 @@ Copy and paste code from the stacked or grouped graph you like best and edit the
 
 * Add the eye color variable in the appropriate places
 
-* If the graph uses color, change the color of the bars by replacing the palette with a different palette found on the http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/ website (bottom of page)
+* If the graph uses color, change the color of the bars by replacing the palette with a different palette; 
+
+    + names of palettes are in the help documentation (search scale_fill_brewer)
+    
+    + colors found on the http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/ website
 
 * Add labels for the axes and a title inside the quote marks
 
@@ -189,10 +193,7 @@ Copy and paste code from the stacked or grouped graph you like best and edit the
 
 When you have completed the changes, click the little green arrow on the top right of the code chunk to run the code.
 
-```{r chunk13}
-# figure 2 code
 
-```
 
 ## Basic histogram
 
